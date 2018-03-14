@@ -1,0 +1,82 @@
+body {
+    padding-bottom: 2%;
+}
+
+nav {
+    padding-top: .5rem;
+}
+
+.icone-accueil {
+    margin-top: .5rem;
+}
+
+.navbar-brand {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-link:hover {
+    background-color: #008de6;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Changer le curseur quand on passe sur une ligne cliquable du tableau */
+.table-row {
+    cursor: pointer;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.table-column, table-header {
+    font-size: 1.2rem;
+}
+
+.jumbotron-header {
+    background-color: #007BFF;
+}
+
+.jumbotron-title {
+    color: white;
+}
+
+.search-row {
+    margin-bottom: 2%;
+}
+
+.titre {
+    padding-top: 1em;
+}
+
+.affiche {
+    margin-top: .5rem;
+}
+
+.card-text {
+    font-size: large;
+}
+
+.arrow-icon {
+    margin-right: 1%;
+}
+
+.display-4 {
+    font-size: 1.75rem;
+}
+
+#auth {
+    margin-top: 5%;
+}
+
+#login {
+    display: block;
+    margin: auto;
+}

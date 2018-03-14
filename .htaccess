@@ -1,0 +1,5 @@
+RewriteEngine on
+# Exclure tous les fichiers statiques de la redirection
+RewriteCond %{REQUEST_URI} !(\.gif|\.jpg|\.png|\.svg|\.css|\.js)$ [NC]
+# Rediriger toutes les requêtes vers l'index avec l'url en paramètre
+RewriteRule ^(.*)$ index.php?url=$1 [QSA]
